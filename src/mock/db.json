@@ -1,0 +1,11 @@
+{
+  "users": [
+    { "id": 1, "name": "Admin", "email": "admin@example.com", "password": "password", "role": "admin" }
+  ],
+  "customers": [
+    { "id": 1, "name": "Acme Corp", "email": "sales@acme.com", "phone": "+1 555 1000", "company": "Acme" }
+  ],
+  "leads": [
+    { "id": 1, "customerId": 1, "title": "Website redesign", "description": "Redesign site", "status": "New", "value": 5000, "createdAt": "2025-10-01" }
+  ]
+}
